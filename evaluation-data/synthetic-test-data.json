@@ -1,0 +1,26 @@
+[
+  {
+    "pairId": "java-jd-001-pair-001",
+    "jobId": "java-jd-001",
+    "resumeId": "resume-001",
+    "jobDescription": "Junior Java Developer. Required: Java, Spring Boot, REST, PostgreSQL, Docker.",
+    "resumeText": "SKILLS\nJava, Spring Boot, REST, PostgreSQL, Docker\nEXPERIENCE\nDeveloped REST APIs using Spring Boot.",
+    "humanRelevanceScore": 5
+  },
+  {
+    "pairId": "java-jd-001-pair-002",
+    "jobId": "java-jd-001",
+    "resumeId": "resume-002",
+    "jobDescription": "Junior Java Developer. Required: Java, Spring Boot, REST, PostgreSQL, Docker.",
+    "resumeText": "SKILLS\nJava, Spring Boot\nSUMMARY\nInterested in backend development.",
+    "humanRelevanceScore": 3
+  },
+  {
+    "pairId": "java-jd-001-pair-003",
+    "jobId": "java-jd-001",
+    "resumeId": "resume-003",
+    "jobDescription": "Junior Java Developer. Required: Java, Spring Boot, REST, PostgreSQL, Docker.",
+    "resumeText": "SKILLS\nHTML, CSS, JavaScript\nEXPERIENCE\nBuilt frontend pages.",
+    "humanRelevanceScore": 1
+  }
+]

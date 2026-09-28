@@ -1,0 +1,1519 @@
+{
+  "reportType" : "human-ranking benchmark results",
+  "source" : "https://github.com/NataliaVanetik/vacancy-resume-matching-dataset",
+  "vacancies" : 5,
+  "annotatedResumes" : 30,
+  "expectedPairs" : 150,
+  "evaluatedPairs" : 150,
+  "failedPairs" : 0,
+  "annotators" : 2,
+  "keywordWeight" : 0.5,
+  "semanticWeight" : 0.5,
+  "baselineDescription" : "Current production baseline: keywordScore * 0.50 + semanticScore * 0.50",
+  "ndcgAt1" : 0.41111111111111115,
+  "ndcgAt3" : 0.5059572411158207,
+  "ndcgAt5" : 0.725313465300266,
+  "spearman" : -0.09409841145276211,
+  "perResumeResults" : [ {
+    "resumeId" : "CV-001",
+    "humanRankingAnnotator1" : [ 2, 1, 4, 3, 5 ],
+    "humanRankingAnnotator2" : [ 4, 3, 1, 5, 2 ],
+    "systemRanking" : [ "VACANCY-5", "VACANCY-3", "VACANCY-2", "VACANCY-1", "VACANCY-4" ],
+    "ndcgAt1" : 0.0,
+    "ndcgAt3" : 0.38873265301597665,
+    "ndcgAt5" : 0.5764799517134723,
+    "spearman" : -0.6,
+    "pairs" : [ {
+      "jobId" : "VACANCY-1",
+      "keywordScore" : 40.0,
+      "semanticScore" : 65.6,
+      "systemScore" : 52.8,
+      "humanRankAnnotator1" : 2,
+      "humanRankAnnotator2" : 4,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-2",
+      "keywordScore" : 50.0,
+      "semanticScore" : 64.7,
+      "systemScore" : 57.4,
+      "humanRankAnnotator1" : 1,
+      "humanRankAnnotator2" : 3,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-3",
+      "keywordScore" : 50.0,
+      "semanticScore" : 65.5,
+      "systemScore" : 57.8,
+      "humanRankAnnotator1" : 4,
+      "humanRankAnnotator2" : 1,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-4",
+      "keywordScore" : 31.3,
+      "semanticScore" : 68.0,
+      "systemScore" : 49.7,
+      "humanRankAnnotator1" : 3,
+      "humanRankAnnotator2" : 5,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-5",
+      "keywordScore" : 66.7,
+      "semanticScore" : 66.4,
+      "systemScore" : 66.6,
+      "humanRankAnnotator1" : 5,
+      "humanRankAnnotator2" : 2,
+      "failure" : null
+    } ]
+  }, {
+    "resumeId" : "CV-002",
+    "humanRankingAnnotator1" : [ 1, 2, 3, 4, 5 ],
+    "humanRankingAnnotator2" : [ 2, 4, 3, 1, 5 ],
+    "systemRanking" : [ "VACANCY-2", "VACANCY-4", "VACANCY-5", "VACANCY-3", "VACANCY-1" ],
+    "ndcgAt1" : 0.4666666666666667,
+    "ndcgAt3" : 0.36482808952831225,
+    "ndcgAt5" : 0.6898217095818123,
+    "spearman" : -0.3,
+    "pairs" : [ {
+      "jobId" : "VACANCY-1",
+      "keywordScore" : 20.0,
+      "semanticScore" : 61.4,
+      "systemScore" : 40.7,
+      "humanRankAnnotator1" : 1,
+      "humanRankAnnotator2" : 2,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-2",
+      "keywordScore" : 50.0,
+      "semanticScore" : 60.1,
+      "systemScore" : 55.1,
+      "humanRankAnnotator1" : 2,
+      "humanRankAnnotator2" : 4,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-3",
+      "keywordScore" : 25.0,
+      "semanticScore" : 58.4,
+      "systemScore" : 41.7,
+      "humanRankAnnotator1" : 3,
+      "humanRankAnnotator2" : 3,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-4",
+      "keywordScore" : 43.8,
+      "semanticScore" : 62.8,
+      "systemScore" : 53.3,
+      "humanRankAnnotator1" : 4,
+      "humanRankAnnotator2" : 1,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-5",
+      "keywordScore" : 33.3,
+      "semanticScore" : 63.8,
+      "systemScore" : 48.6,
+      "humanRankAnnotator1" : 5,
+      "humanRankAnnotator2" : 5,
+      "failure" : null
+    } ]
+  }, {
+    "resumeId" : "CV-003",
+    "humanRankingAnnotator1" : [ 1, 2, 3, 4, 5 ],
+    "humanRankingAnnotator2" : [ 5, 4, 2, 3, 1 ],
+    "systemRanking" : [ "VACANCY-1", "VACANCY-5", "VACANCY-4", "VACANCY-3", "VACANCY-2" ],
+    "ndcgAt1" : 1.0,
+    "ndcgAt3" : 0.7410414681175963,
+    "ndcgAt5" : 0.9134693626978978,
+    "spearman" : 0.0,
+    "pairs" : [ {
+      "jobId" : "VACANCY-1",
+      "keywordScore" : 100.0,
+      "semanticScore" : 66.1,
+      "systemScore" : 83.1,
+      "humanRankAnnotator1" : 1,
+      "humanRankAnnotator2" : 5,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-2",
+      "keywordScore" : 37.5,
+      "semanticScore" : 61.3,
+      "systemScore" : 49.4,
+      "humanRankAnnotator1" : 2,
+      "humanRankAnnotator2" : 4,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-3",
+      "keywordScore" : 50.0,
+      "semanticScore" : 60.0,
+      "systemScore" : 55.0,
+      "humanRankAnnotator1" : 3,
+      "humanRankAnnotator2" : 2,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-4",
+      "keywordScore" : 56.3,
+      "semanticScore" : 65.8,
+      "systemScore" : 61.1,
+      "humanRankAnnotator1" : 4,
+      "humanRankAnnotator2" : 3,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-5",
+      "keywordScore" : 66.7,
+      "semanticScore" : 65.8,
+      "systemScore" : 66.3,
+      "humanRankAnnotator1" : 5,
+      "humanRankAnnotator2" : 1,
+      "failure" : null
+    } ]
+  }, {
+    "resumeId" : "CV-004",
+    "humanRankingAnnotator1" : [ 3, 1, 2, 4, 5 ],
+    "humanRankingAnnotator2" : [ 1, 3, 2, 4, 5 ],
+    "systemRanking" : [ "VACANCY-1", "VACANCY-2", "VACANCY-5", "VACANCY-4", "VACANCY-3" ],
+    "ndcgAt1" : 0.2,
+    "ndcgAt3" : 0.5958903914411471,
+    "ndcgAt5" : 0.7308969606200091,
+    "spearman" : 0.1,
+    "pairs" : [ {
+      "jobId" : "VACANCY-1",
+      "keywordScore" : 80.0,
+      "semanticScore" : 63.3,
+      "systemScore" : 71.7,
+      "humanRankAnnotator1" : 3,
+      "humanRankAnnotator2" : 1,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-2",
+      "keywordScore" : 50.0,
+      "semanticScore" : 60.0,
+      "systemScore" : 55.0,
+      "humanRankAnnotator1" : 1,
+      "humanRankAnnotator2" : 3,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-3",
+      "keywordScore" : 25.0,
+      "semanticScore" : 59.2,
+      "systemScore" : 42.1,
+      "humanRankAnnotator1" : 2,
+      "humanRankAnnotator2" : 2,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-4",
+      "keywordScore" : 31.3,
+      "semanticScore" : 65.1,
+      "systemScore" : 48.2,
+      "humanRankAnnotator1" : 4,
+      "humanRankAnnotator2" : 4,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-5",
+      "keywordScore" : 33.3,
+      "semanticScore" : 63.8,
+      "systemScore" : 48.6,
+      "humanRankAnnotator1" : 5,
+      "humanRankAnnotator2" : 5,
+      "failure" : null
+    } ]
+  }, {
+    "resumeId" : "CV-005",
+    "humanRankingAnnotator1" : [ 1, 5, 4, 2, 3 ],
+    "humanRankingAnnotator2" : [ 5, 1, 2, 4, 3 ],
+    "systemRanking" : [ "VACANCY-2", "VACANCY-3", "VACANCY-1", "VACANCY-5", "VACANCY-4" ],
+    "ndcgAt1" : 0.0,
+    "ndcgAt3" : 0.38873265301597665,
+    "ndcgAt5" : 0.568268330147156,
+    "spearman" : -0.7,
+    "pairs" : [ {
+      "jobId" : "VACANCY-1",
+      "keywordScore" : 40.0,
+      "semanticScore" : 61.2,
+      "systemScore" : 50.6,
+      "humanRankAnnotator1" : 1,
+      "humanRankAnnotator2" : 5,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-2",
+      "keywordScore" : 62.5,
+      "semanticScore" : 60.1,
+      "systemScore" : 61.3,
+      "humanRankAnnotator1" : 5,
+      "humanRankAnnotator2" : 1,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-3",
+      "keywordScore" : 50.0,
+      "semanticScore" : 61.6,
+      "systemScore" : 55.8,
+      "humanRankAnnotator1" : 4,
+      "humanRankAnnotator2" : 2,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-4",
+      "keywordScore" : 25.0,
+      "semanticScore" : 66.9,
+      "systemScore" : 46.0,
+      "humanRankAnnotator1" : 2,
+      "humanRankAnnotator2" : 4,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-5",
+      "keywordScore" : 33.3,
+      "semanticScore" : 64.5,
+      "systemScore" : 48.9,
+      "humanRankAnnotator1" : 3,
+      "humanRankAnnotator2" : 3,
+      "failure" : null
+    } ]
+  }, {
+    "resumeId" : "CV-006",
+    "humanRankingAnnotator1" : [ 3, 2, 1, 4, 5 ],
+    "humanRankingAnnotator2" : [ 1, 3, 2, 4, 5 ],
+    "systemRanking" : [ "VACANCY-1", "VACANCY-5", "VACANCY-2", "VACANCY-4", "VACANCY-3" ],
+    "ndcgAt1" : 0.2,
+    "ndcgAt3" : 0.3107593253396371,
+    "ndcgAt5" : 0.5964940466933755,
+    "spearman" : -0.5,
+    "pairs" : [ {
+      "jobId" : "VACANCY-1",
+      "keywordScore" : 80.0,
+      "semanticScore" : 61.7,
+      "systemScore" : 70.9,
+      "humanRankAnnotator1" : 3,
+      "humanRankAnnotator2" : 1,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-2",
+      "keywordScore" : 62.5,
+      "semanticScore" : 60.8,
+      "systemScore" : 61.7,
+      "humanRankAnnotator1" : 2,
+      "humanRankAnnotator2" : 3,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-3",
+      "keywordScore" : 50.0,
+      "semanticScore" : 58.1,
+      "systemScore" : 54.1,
+      "humanRankAnnotator1" : 1,
+      "humanRankAnnotator2" : 2,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-4",
+      "keywordScore" : 56.3,
+      "semanticScore" : 63.1,
+      "systemScore" : 59.7,
+      "humanRankAnnotator1" : 4,
+      "humanRankAnnotator2" : 4,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-5",
+      "keywordScore" : 66.7,
+      "semanticScore" : 60.3,
+      "systemScore" : 63.5,
+      "humanRankAnnotator1" : 5,
+      "humanRankAnnotator2" : 5,
+      "failure" : null
+    } ]
+  }, {
+    "resumeId" : "CV-007",
+    "humanRankingAnnotator1" : [ 3, 2, 1, 5, 4 ],
+    "humanRankingAnnotator2" : [ 4, 2, 3, 1, 5 ],
+    "systemRanking" : [ "VACANCY-3", "VACANCY-5", "VACANCY-2", "VACANCY-4", "VACANCY-1" ],
+    "ndcgAt1" : 1.0,
+    "ndcgAt3" : 0.9146330497445934,
+    "ndcgAt5" : 0.9505463288928431,
+    "spearman" : 0.5,
+    "pairs" : [ {
+      "jobId" : "VACANCY-1",
+      "keywordScore" : 40.0,
+      "semanticScore" : 64.1,
+      "systemScore" : 52.1,
+      "humanRankAnnotator1" : 3,
+      "humanRankAnnotator2" : 4,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-2",
+      "keywordScore" : 50.0,
+      "semanticScore" : 61.8,
+      "systemScore" : 55.9,
+      "humanRankAnnotator1" : 2,
+      "humanRankAnnotator2" : 2,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-3",
+      "keywordScore" : 75.0,
+      "semanticScore" : 56.5,
+      "systemScore" : 65.8,
+      "humanRankAnnotator1" : 1,
+      "humanRankAnnotator2" : 3,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-4",
+      "keywordScore" : 43.8,
+      "semanticScore" : 63.9,
+      "systemScore" : 53.9,
+      "humanRankAnnotator1" : 5,
+      "humanRankAnnotator2" : 1,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-5",
+      "keywordScore" : 66.7,
+      "semanticScore" : 59.6,
+      "systemScore" : 63.2,
+      "humanRankAnnotator1" : 4,
+      "humanRankAnnotator2" : 5,
+      "failure" : null
+    } ]
+  }, {
+    "resumeId" : "CV-008",
+    "humanRankingAnnotator1" : [ 2, 4, 3, 1, 5 ],
+    "humanRankingAnnotator2" : [ 2, 4, 3, 1, 5 ],
+    "systemRanking" : [ "VACANCY-5", "VACANCY-3", "VACANCY-2", "VACANCY-4", "VACANCY-1" ],
+    "ndcgAt1" : 0.0,
+    "ndcgAt3" : 0.11439716559069654,
+    "ndcgAt5" : 0.5415658960588344,
+    "spearman" : -0.8,
+    "pairs" : [ {
+      "jobId" : "VACANCY-1",
+      "keywordScore" : 0.0,
+      "semanticScore" : 59.7,
+      "systemScore" : 29.9,
+      "humanRankAnnotator1" : 2,
+      "humanRankAnnotator2" : 2,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-2",
+      "keywordScore" : 12.5,
+      "semanticScore" : 58.7,
+      "systemScore" : 35.6,
+      "humanRankAnnotator1" : 4,
+      "humanRankAnnotator2" : 4,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-3",
+      "keywordScore" : 25.0,
+      "semanticScore" : 58.5,
+      "systemScore" : 41.8,
+      "humanRankAnnotator1" : 3,
+      "humanRankAnnotator2" : 3,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-4",
+      "keywordScore" : 6.3,
+      "semanticScore" : 61.2,
+      "systemScore" : 33.8,
+      "humanRankAnnotator1" : 1,
+      "humanRankAnnotator2" : 1,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-5",
+      "keywordScore" : 33.3,
+      "semanticScore" : 59.5,
+      "systemScore" : 46.4,
+      "humanRankAnnotator1" : 5,
+      "humanRankAnnotator2" : 5,
+      "failure" : null
+    } ]
+  }, {
+    "resumeId" : "CV-009",
+    "humanRankingAnnotator1" : [ 1, 5, 2, 1, 4 ],
+    "humanRankingAnnotator2" : [ 3, 4, 2, 1, 5 ],
+    "systemRanking" : [ "VACANCY-1", "VACANCY-5", "VACANCY-2", "VACANCY-3", "VACANCY-4" ],
+    "ndcgAt1" : 1.0,
+    "ndcgAt3" : 0.7473011053309426,
+    "ndcgAt5" : 1.145277841541189,
+    "spearman" : -0.17407765595569785,
+    "pairs" : [ {
+      "jobId" : "VACANCY-1",
+      "keywordScore" : 60.0,
+      "semanticScore" : 64.5,
+      "systemScore" : 62.3,
+      "humanRankAnnotator1" : 1,
+      "humanRankAnnotator2" : 3,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-2",
+      "keywordScore" : 25.0,
+      "semanticScore" : 62.2,
+      "systemScore" : 43.6,
+      "humanRankAnnotator1" : 5,
+      "humanRankAnnotator2" : 4,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-3",
+      "keywordScore" : 25.0,
+      "semanticScore" : 61.5,
+      "systemScore" : 43.3,
+      "humanRankAnnotator1" : 2,
+      "humanRankAnnotator2" : 2,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-4",
+      "keywordScore" : 12.5,
+      "semanticScore" : 65.7,
+      "systemScore" : 39.1,
+      "humanRankAnnotator1" : 1,
+      "humanRankAnnotator2" : 1,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-5",
+      "keywordScore" : 33.3,
+      "semanticScore" : 61.5,
+      "systemScore" : 47.4,
+      "humanRankAnnotator1" : 4,
+      "humanRankAnnotator2" : 5,
+      "failure" : null
+    } ]
+  }, {
+    "resumeId" : "CV-010",
+    "humanRankingAnnotator1" : [ 3, 2, 1, 4, 5 ],
+    "humanRankingAnnotator2" : [ 4, 1, 2, 5, 3 ],
+    "systemRanking" : [ "VACANCY-2", "VACANCY-4", "VACANCY-1", "VACANCY-3", "VACANCY-5" ],
+    "ndcgAt1" : 0.4666666666666667,
+    "ndcgAt3" : 0.43654177999130545,
+    "ndcgAt5" : 0.7303575739184496,
+    "spearman" : 0.3,
+    "pairs" : [ {
+      "jobId" : "VACANCY-1",
+      "keywordScore" : 20.0,
+      "semanticScore" : 59.0,
+      "systemScore" : 39.5,
+      "humanRankAnnotator1" : 3,
+      "humanRankAnnotator2" : 4,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-2",
+      "keywordScore" : 25.0,
+      "semanticScore" : 60.4,
+      "systemScore" : 42.7,
+      "humanRankAnnotator1" : 2,
+      "humanRankAnnotator2" : 1,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-3",
+      "keywordScore" : 0.0,
+      "semanticScore" : 59.7,
+      "systemScore" : 29.9,
+      "humanRankAnnotator1" : 1,
+      "humanRankAnnotator2" : 2,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-4",
+      "keywordScore" : 18.8,
+      "semanticScore" : 63.4,
+      "systemScore" : 41.1,
+      "humanRankAnnotator1" : 4,
+      "humanRankAnnotator2" : 5,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-5",
+      "keywordScore" : 0.0,
+      "semanticScore" : 59.4,
+      "systemScore" : 29.7,
+      "humanRankAnnotator1" : 5,
+      "humanRankAnnotator2" : 3,
+      "failure" : null
+    } ]
+  }, {
+    "resumeId" : "CV-011",
+    "humanRankingAnnotator1" : [ 1, 2, 3, 4, 5 ],
+    "humanRankingAnnotator2" : [ 2, 4, 3, 5, 1 ],
+    "systemRanking" : [ "VACANCY-5", "VACANCY-3", "VACANCY-2", "VACANCY-1", "VACANCY-4" ],
+    "ndcgAt1" : 0.0,
+    "ndcgAt3" : 0.2578245465166829,
+    "ndcgAt5" : 0.5733678953342116,
+    "spearman" : -0.4,
+    "pairs" : [ {
+      "jobId" : "VACANCY-1",
+      "keywordScore" : 20.0,
+      "semanticScore" : 65.3,
+      "systemScore" : 42.7,
+      "humanRankAnnotator1" : 1,
+      "humanRankAnnotator2" : 2,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-2",
+      "keywordScore" : 37.5,
+      "semanticScore" : 64.0,
+      "systemScore" : 50.8,
+      "humanRankAnnotator1" : 2,
+      "humanRankAnnotator2" : 4,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-3",
+      "keywordScore" : 75.0,
+      "semanticScore" : 64.1,
+      "systemScore" : 69.6,
+      "humanRankAnnotator1" : 3,
+      "humanRankAnnotator2" : 3,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-4",
+      "keywordScore" : 18.8,
+      "semanticScore" : 63.6,
+      "systemScore" : 41.2,
+      "humanRankAnnotator1" : 4,
+      "humanRankAnnotator2" : 5,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-5",
+      "keywordScore" : 100.0,
+      "semanticScore" : 68.7,
+      "systemScore" : 84.4,
+      "humanRankAnnotator1" : 5,
+      "humanRankAnnotator2" : 1,
+      "failure" : null
+    } ]
+  }, {
+    "resumeId" : "CV-012",
+    "humanRankingAnnotator1" : [ 1, 2, 3, 4, 5 ],
+    "humanRankingAnnotator2" : [ 4, 3, 2, 1, 5 ],
+    "systemRanking" : [ "VACANCY-1", "VACANCY-4", "VACANCY-5", "VACANCY-2", "VACANCY-3" ],
+    "ndcgAt1" : 1.0,
+    "ndcgAt3" : 0.7473011053309426,
+    "ndcgAt5" : 0.9278143341459563,
+    "spearman" : 0.2,
+    "pairs" : [ {
+      "jobId" : "VACANCY-1",
+      "keywordScore" : 40.0,
+      "semanticScore" : 64.2,
+      "systemScore" : 52.1,
+      "humanRankAnnotator1" : 1,
+      "humanRankAnnotator2" : 4,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-2",
+      "keywordScore" : 25.0,
+      "semanticScore" : 60.4,
+      "systemScore" : 42.7,
+      "humanRankAnnotator1" : 2,
+      "humanRankAnnotator2" : 3,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-3",
+      "keywordScore" : 25.0,
+      "semanticScore" : 59.8,
+      "systemScore" : 42.4,
+      "humanRankAnnotator1" : 3,
+      "humanRankAnnotator2" : 2,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-4",
+      "keywordScore" : 37.5,
+      "semanticScore" : 61.8,
+      "systemScore" : 49.7,
+      "humanRankAnnotator1" : 4,
+      "humanRankAnnotator2" : 1,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-5",
+      "keywordScore" : 33.3,
+      "semanticScore" : 60.4,
+      "systemScore" : 46.8,
+      "humanRankAnnotator1" : 5,
+      "humanRankAnnotator2" : 5,
+      "failure" : null
+    } ]
+  }, {
+    "resumeId" : "CV-013",
+    "humanRankingAnnotator1" : [ 1, 3, 2, 4, 5 ],
+    "humanRankingAnnotator2" : [ 4, 2, 3, 1, 5 ],
+    "systemRanking" : [ "VACANCY-2", "VACANCY-4", "VACANCY-1", "VACANCY-3", "VACANCY-5" ],
+    "ndcgAt1" : 0.2,
+    "ndcgAt3" : 0.5321600339419631,
+    "ndcgAt5" : 0.6626478278376577,
+    "spearman" : 0.2,
+    "pairs" : [ {
+      "jobId" : "VACANCY-1",
+      "keywordScore" : 20.0,
+      "semanticScore" : 59.1,
+      "systemScore" : 39.6,
+      "humanRankAnnotator1" : 1,
+      "humanRankAnnotator2" : 4,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-2",
+      "keywordScore" : 62.5,
+      "semanticScore" : 54.4,
+      "systemScore" : 58.5,
+      "humanRankAnnotator1" : 3,
+      "humanRankAnnotator2" : 2,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-3",
+      "keywordScore" : 25.0,
+      "semanticScore" : 51.6,
+      "systemScore" : 38.3,
+      "humanRankAnnotator1" : 2,
+      "humanRankAnnotator2" : 3,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-4",
+      "keywordScore" : 25.0,
+      "semanticScore" : 57.4,
+      "systemScore" : 41.2,
+      "humanRankAnnotator1" : 4,
+      "humanRankAnnotator2" : 1,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-5",
+      "keywordScore" : 0.0,
+      "semanticScore" : 53.4,
+      "systemScore" : 26.7,
+      "humanRankAnnotator1" : 5,
+      "humanRankAnnotator2" : 5,
+      "failure" : null
+    } ]
+  }, {
+    "resumeId" : "CV-014",
+    "humanRankingAnnotator1" : [ 1, 2, 3, 4, 5 ],
+    "humanRankingAnnotator2" : [ 3, 4, 2, 1, 5 ],
+    "systemRanking" : [ "VACANCY-5", "VACANCY-3", "VACANCY-2", "VACANCY-1", "VACANCY-4" ],
+    "ndcgAt1" : 0.0,
+    "ndcgAt3" : 0.2578245465166829,
+    "ndcgAt5" : 0.5733678953342116,
+    "spearman" : -0.4,
+    "pairs" : [ {
+      "jobId" : "VACANCY-1",
+      "keywordScore" : 20.0,
+      "semanticScore" : 64.6,
+      "systemScore" : 42.3,
+      "humanRankAnnotator1" : 1,
+      "humanRankAnnotator2" : 3,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-2",
+      "keywordScore" : 50.0,
+      "semanticScore" : 61.4,
+      "systemScore" : 55.7,
+      "humanRankAnnotator1" : 2,
+      "humanRankAnnotator2" : 4,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-3",
+      "keywordScore" : 75.0,
+      "semanticScore" : 60.6,
+      "systemScore" : 67.8,
+      "humanRankAnnotator1" : 3,
+      "humanRankAnnotator2" : 2,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-4",
+      "keywordScore" : 18.8,
+      "semanticScore" : 62.8,
+      "systemScore" : 40.8,
+      "humanRankAnnotator1" : 4,
+      "humanRankAnnotator2" : 1,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-5",
+      "keywordScore" : 100.0,
+      "semanticScore" : 60.2,
+      "systemScore" : 80.1,
+      "humanRankAnnotator1" : 5,
+      "humanRankAnnotator2" : 5,
+      "failure" : null
+    } ]
+  }, {
+    "resumeId" : "CV-015",
+    "humanRankingAnnotator1" : [ 3, 1, 2, 4, 5 ],
+    "humanRankingAnnotator2" : [ 2, 4, 3, 1, 5 ],
+    "systemRanking" : [ "VACANCY-1", "VACANCY-4", "VACANCY-2", "VACANCY-3", "VACANCY-5" ],
+    "ndcgAt1" : 0.2,
+    "ndcgAt3" : 0.5321600339419631,
+    "ndcgAt5" : 0.6626478278376577,
+    "spearman" : 0.2,
+    "pairs" : [ {
+      "jobId" : "VACANCY-1",
+      "keywordScore" : 60.0,
+      "semanticScore" : 65.3,
+      "systemScore" : 62.7,
+      "humanRankAnnotator1" : 3,
+      "humanRankAnnotator2" : 2,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-2",
+      "keywordScore" : 37.5,
+      "semanticScore" : 61.7,
+      "systemScore" : 49.6,
+      "humanRankAnnotator1" : 1,
+      "humanRankAnnotator2" : 4,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-3",
+      "keywordScore" : 25.0,
+      "semanticScore" : 62.1,
+      "systemScore" : 43.6,
+      "humanRankAnnotator1" : 2,
+      "humanRankAnnotator2" : 3,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-4",
+      "keywordScore" : 37.5,
+      "semanticScore" : 67.0,
+      "systemScore" : 52.3,
+      "humanRankAnnotator1" : 4,
+      "humanRankAnnotator2" : 1,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-5",
+      "keywordScore" : 0.0,
+      "semanticScore" : 63.7,
+      "systemScore" : 31.9,
+      "humanRankAnnotator1" : 5,
+      "humanRankAnnotator2" : 5,
+      "failure" : null
+    } ]
+  }, {
+    "resumeId" : "CV-016",
+    "humanRankingAnnotator1" : [ 3, 1, 2, 4, 5 ],
+    "humanRankingAnnotator2" : [ 3, 2, 4, 1, 5 ],
+    "systemRanking" : [ "VACANCY-3", "VACANCY-5", "VACANCY-1", "VACANCY-4", "VACANCY-2" ],
+    "ndcgAt1" : 0.4666666666666667,
+    "ndcgAt3" : 0.4063775792902947,
+    "ndcgAt5" : 0.6901832153420379,
+    "spearman" : -0.3,
+    "pairs" : [ {
+      "jobId" : "VACANCY-1",
+      "keywordScore" : 60.0,
+      "semanticScore" : 62.9,
+      "systemScore" : 61.5,
+      "humanRankAnnotator1" : 3,
+      "humanRankAnnotator2" : 3,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-2",
+      "keywordScore" : 50.0,
+      "semanticScore" : 61.1,
+      "systemScore" : 55.6,
+      "humanRankAnnotator1" : 1,
+      "humanRankAnnotator2" : 2,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-3",
+      "keywordScore" : 75.0,
+      "semanticScore" : 64.5,
+      "systemScore" : 69.8,
+      "humanRankAnnotator1" : 2,
+      "humanRankAnnotator2" : 4,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-4",
+      "keywordScore" : 50.0,
+      "semanticScore" : 62.1,
+      "systemScore" : 56.1,
+      "humanRankAnnotator1" : 4,
+      "humanRankAnnotator2" : 1,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-5",
+      "keywordScore" : 66.7,
+      "semanticScore" : 64.4,
+      "systemScore" : 65.6,
+      "humanRankAnnotator1" : 5,
+      "humanRankAnnotator2" : 5,
+      "failure" : null
+    } ]
+  }, {
+    "resumeId" : "CV-017",
+    "humanRankingAnnotator1" : [ 3, 1, 2, 4, 5 ],
+    "humanRankingAnnotator2" : [ 4, 2, 3, 1, 5 ],
+    "systemRanking" : [ "VACANCY-3", "VACANCY-2", "VACANCY-4", "VACANCY-5", "VACANCY-1" ],
+    "ndcgAt1" : 0.4666666666666667,
+    "ndcgAt3" : 0.8110314628301265,
+    "ndcgAt5" : 0.8490348899399067,
+    "spearman" : 0.6,
+    "pairs" : [ {
+      "jobId" : "VACANCY-1",
+      "keywordScore" : 20.0,
+      "semanticScore" : 59.1,
+      "systemScore" : 39.6,
+      "humanRankAnnotator1" : 3,
+      "humanRankAnnotator2" : 4,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-2",
+      "keywordScore" : 50.0,
+      "semanticScore" : 57.9,
+      "systemScore" : 54.0,
+      "humanRankAnnotator1" : 1,
+      "humanRankAnnotator2" : 2,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-3",
+      "keywordScore" : 50.0,
+      "semanticScore" : 59.5,
+      "systemScore" : 54.8,
+      "humanRankAnnotator1" : 2,
+      "humanRankAnnotator2" : 3,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-4",
+      "keywordScore" : 43.8,
+      "semanticScore" : 63.0,
+      "systemScore" : 53.4,
+      "humanRankAnnotator1" : 4,
+      "humanRankAnnotator2" : 1,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-5",
+      "keywordScore" : 33.3,
+      "semanticScore" : 56.7,
+      "systemScore" : 45.0,
+      "humanRankAnnotator1" : 5,
+      "humanRankAnnotator2" : 5,
+      "failure" : null
+    } ]
+  }, {
+    "resumeId" : "CV-018",
+    "humanRankingAnnotator1" : [ 1, 2, 5, 3, 4 ],
+    "humanRankingAnnotator2" : [ 4, 2, 5, 3, 1 ],
+    "systemRanking" : [ "VACANCY-4", "VACANCY-1", "VACANCY-2", "VACANCY-3", "VACANCY-5" ],
+    "ndcgAt1" : 0.2,
+    "ndcgAt3" : 0.7632223358547978,
+    "ndcgAt5" : 0.7659463877163701,
+    "spearman" : 0.6,
+    "pairs" : [ {
+      "jobId" : "VACANCY-1",
+      "keywordScore" : 0.0,
+      "semanticScore" : 62.5,
+      "systemScore" : 31.3,
+      "humanRankAnnotator1" : 1,
+      "humanRankAnnotator2" : 4,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-2",
+      "keywordScore" : 0.0,
+      "semanticScore" : 61.9,
+      "systemScore" : 31.0,
+      "humanRankAnnotator1" : 2,
+      "humanRankAnnotator2" : 2,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-3",
+      "keywordScore" : 0.0,
+      "semanticScore" : 58.2,
+      "systemScore" : 29.1,
+      "humanRankAnnotator1" : 5,
+      "humanRankAnnotator2" : 5,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-4",
+      "keywordScore" : 6.3,
+      "semanticScore" : 61.8,
+      "systemScore" : 34.1,
+      "humanRankAnnotator1" : 3,
+      "humanRankAnnotator2" : 3,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-5",
+      "keywordScore" : 0.0,
+      "semanticScore" : 57.7,
+      "systemScore" : 28.9,
+      "humanRankAnnotator1" : 4,
+      "humanRankAnnotator2" : 1,
+      "failure" : null
+    } ]
+  }, {
+    "resumeId" : "CV-019",
+    "humanRankingAnnotator1" : [ 3, 2, 1, 4, 5 ],
+    "humanRankingAnnotator2" : [ 4, 2, 3, 1, 5 ],
+    "systemRanking" : [ "VACANCY-1", "VACANCY-5", "VACANCY-4", "VACANCY-3", "VACANCY-2" ],
+    "ndcgAt1" : 0.2,
+    "ndcgAt3" : 0.16733194441365076,
+    "ndcgAt5" : 0.5934327229001051,
+    "spearman" : -0.6,
+    "pairs" : [ {
+      "jobId" : "VACANCY-1",
+      "keywordScore" : 100.0,
+      "semanticScore" : 66.5,
+      "systemScore" : 83.3,
+      "humanRankAnnotator1" : 3,
+      "humanRankAnnotator2" : 4,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-2",
+      "keywordScore" : 50.0,
+      "semanticScore" : 61.5,
+      "systemScore" : 55.8,
+      "humanRankAnnotator1" : 2,
+      "humanRankAnnotator2" : 2,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-3",
+      "keywordScore" : 50.0,
+      "semanticScore" : 61.9,
+      "systemScore" : 56.0,
+      "humanRankAnnotator1" : 1,
+      "humanRankAnnotator2" : 3,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-4",
+      "keywordScore" : 62.5,
+      "semanticScore" : 65.7,
+      "systemScore" : 64.1,
+      "humanRankAnnotator1" : 4,
+      "humanRankAnnotator2" : 1,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-5",
+      "keywordScore" : 66.7,
+      "semanticScore" : 67.0,
+      "systemScore" : 66.9,
+      "humanRankAnnotator1" : 5,
+      "humanRankAnnotator2" : 5,
+      "failure" : null
+    } ]
+  }, {
+    "resumeId" : "CV-020",
+    "humanRankingAnnotator1" : [ 3, 2, 1, 4, 5 ],
+    "humanRankingAnnotator2" : [ 1, 5, 2, 4, 3 ],
+    "systemRanking" : [ "VACANCY-2", "VACANCY-4", "VACANCY-3", "VACANCY-1", "VACANCY-5" ],
+    "ndcgAt1" : 0.4666666666666667,
+    "ndcgAt3" : 0.7233965418432782,
+    "ndcgAt5" : 0.7693267077702554,
+    "spearman" : 0.5,
+    "pairs" : [ {
+      "jobId" : "VACANCY-1",
+      "keywordScore" : 20.0,
+      "semanticScore" : 67.0,
+      "systemScore" : 43.5,
+      "humanRankAnnotator1" : 3,
+      "humanRankAnnotator2" : 1,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-2",
+      "keywordScore" : 37.5,
+      "semanticScore" : 65.7,
+      "systemScore" : 51.6,
+      "humanRankAnnotator1" : 2,
+      "humanRankAnnotator2" : 5,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-3",
+      "keywordScore" : 25.0,
+      "semanticScore" : 63.8,
+      "systemScore" : 44.4,
+      "humanRankAnnotator1" : 1,
+      "humanRankAnnotator2" : 2,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-4",
+      "keywordScore" : 31.3,
+      "semanticScore" : 66.5,
+      "systemScore" : 48.9,
+      "humanRankAnnotator1" : 4,
+      "humanRankAnnotator2" : 4,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-5",
+      "keywordScore" : 0.0,
+      "semanticScore" : 64.5,
+      "systemScore" : 32.3,
+      "humanRankAnnotator1" : 5,
+      "humanRankAnnotator2" : 3,
+      "failure" : null
+    } ]
+  }, {
+    "resumeId" : "CV-021",
+    "humanRankingAnnotator1" : [ 2, 3, 1, 4, 5 ],
+    "humanRankingAnnotator2" : [ 1, 3, 4, 5, 2 ],
+    "systemRanking" : [ "VACANCY-1", "VACANCY-5", "VACANCY-4", "VACANCY-3", "VACANCY-2" ],
+    "ndcgAt1" : 0.4666666666666667,
+    "ndcgAt3" : 0.3585684523149659,
+    "ndcgAt5" : 0.708323224399019,
+    "spearman" : -0.2,
+    "pairs" : [ {
+      "jobId" : "VACANCY-1",
+      "keywordScore" : 40.0,
+      "semanticScore" : 60.6,
+      "systemScore" : 50.3,
+      "humanRankAnnotator1" : 2,
+      "humanRankAnnotator2" : 1,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-2",
+      "keywordScore" : 12.5,
+      "semanticScore" : 60.9,
+      "systemScore" : 36.7,
+      "humanRankAnnotator1" : 3,
+      "humanRankAnnotator2" : 3,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-3",
+      "keywordScore" : 25.0,
+      "semanticScore" : 58.2,
+      "systemScore" : 41.6,
+      "humanRankAnnotator1" : 1,
+      "humanRankAnnotator2" : 4,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-4",
+      "keywordScore" : 25.0,
+      "semanticScore" : 58.6,
+      "systemScore" : 41.8,
+      "humanRankAnnotator1" : 4,
+      "humanRankAnnotator2" : 5,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-5",
+      "keywordScore" : 33.3,
+      "semanticScore" : 58.8,
+      "systemScore" : 46.1,
+      "humanRankAnnotator1" : 5,
+      "humanRankAnnotator2" : 2,
+      "failure" : null
+    } ]
+  }, {
+    "resumeId" : "CV-022",
+    "humanRankingAnnotator1" : [ 1, 2, 3, 5, 4 ],
+    "humanRankingAnnotator2" : [ 4, 1, 3, 2, 5 ],
+    "systemRanking" : [ "VACANCY-5", "VACANCY-3", "VACANCY-4", "VACANCY-2", "VACANCY-1" ],
+    "ndcgAt1" : 0.06666666666666667,
+    "ndcgAt3" : 0.13830172907836094,
+    "ndcgAt5" : 0.5485649450883675,
+    "spearman" : -0.7,
+    "pairs" : [ {
+      "jobId" : "VACANCY-1",
+      "keywordScore" : 0.0,
+      "semanticScore" : 58.8,
+      "systemScore" : 29.4,
+      "humanRankAnnotator1" : 1,
+      "humanRankAnnotator2" : 4,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-2",
+      "keywordScore" : 0.0,
+      "semanticScore" : 62.3,
+      "systemScore" : 31.2,
+      "humanRankAnnotator1" : 2,
+      "humanRankAnnotator2" : 1,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-3",
+      "keywordScore" : 25.0,
+      "semanticScore" : 58.5,
+      "systemScore" : 41.8,
+      "humanRankAnnotator1" : 3,
+      "humanRankAnnotator2" : 3,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-4",
+      "keywordScore" : 6.3,
+      "semanticScore" : 62.3,
+      "systemScore" : 34.3,
+      "humanRankAnnotator1" : 5,
+      "humanRankAnnotator2" : 2,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-5",
+      "keywordScore" : 33.3,
+      "semanticScore" : 60.1,
+      "systemScore" : 46.7,
+      "humanRankAnnotator1" : 4,
+      "humanRankAnnotator2" : 5,
+      "failure" : null
+    } ]
+  }, {
+    "resumeId" : "CV-023",
+    "humanRankingAnnotator1" : [ 2, 1, 3, 5, 4 ],
+    "humanRankingAnnotator2" : [ 1, 3, 4, 2, 5 ],
+    "systemRanking" : [ "VACANCY-2", "VACANCY-3", "VACANCY-5", "VACANCY-4", "VACANCY-1" ],
+    "ndcgAt1" : 1.0,
+    "ndcgAt3" : 0.8315340702206284,
+    "ndcgAt5" : 0.9416116958060757,
+    "spearman" : 0.4,
+    "pairs" : [ {
+      "jobId" : "VACANCY-1",
+      "keywordScore" : 20.0,
+      "semanticScore" : 62.5,
+      "systemScore" : 41.3,
+      "humanRankAnnotator1" : 2,
+      "humanRankAnnotator2" : 1,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-2",
+      "keywordScore" : 75.0,
+      "semanticScore" : 59.5,
+      "systemScore" : 67.3,
+      "humanRankAnnotator1" : 1,
+      "humanRankAnnotator2" : 3,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-3",
+      "keywordScore" : 50.0,
+      "semanticScore" : 60.5,
+      "systemScore" : 55.3,
+      "humanRankAnnotator1" : 3,
+      "humanRankAnnotator2" : 4,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-4",
+      "keywordScore" : 25.0,
+      "semanticScore" : 60.5,
+      "systemScore" : 42.8,
+      "humanRankAnnotator1" : 5,
+      "humanRankAnnotator2" : 2,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-5",
+      "keywordScore" : 33.3,
+      "semanticScore" : 61.8,
+      "systemScore" : 47.6,
+      "humanRankAnnotator1" : 4,
+      "humanRankAnnotator2" : 5,
+      "failure" : null
+    } ]
+  }, {
+    "resumeId" : "CV-024",
+    "humanRankingAnnotator1" : [ 1, 2, 3, 5, 4 ],
+    "humanRankingAnnotator2" : [ 1, 4, 3, 5, 2 ],
+    "systemRanking" : [ "VACANCY-5", "VACANCY-3", "VACANCY-2", "VACANCY-4", "VACANCY-1" ],
+    "ndcgAt1" : 0.06666666666666667,
+    "ndcgAt3" : 0.3056336734920117,
+    "ndcgAt5" : 0.5712969398352542,
+    "spearman" : -0.4,
+    "pairs" : [ {
+      "jobId" : "VACANCY-1",
+      "keywordScore" : 0.0,
+      "semanticScore" : 63.7,
+      "systemScore" : 31.9,
+      "humanRankAnnotator1" : 1,
+      "humanRankAnnotator2" : 1,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-2",
+      "keywordScore" : 37.5,
+      "semanticScore" : 61.7,
+      "systemScore" : 49.6,
+      "humanRankAnnotator1" : 2,
+      "humanRankAnnotator2" : 4,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-3",
+      "keywordScore" : 50.0,
+      "semanticScore" : 59.1,
+      "systemScore" : 54.6,
+      "humanRankAnnotator1" : 3,
+      "humanRankAnnotator2" : 3,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-4",
+      "keywordScore" : 25.0,
+      "semanticScore" : 62.3,
+      "systemScore" : 43.7,
+      "humanRankAnnotator1" : 5,
+      "humanRankAnnotator2" : 5,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-5",
+      "keywordScore" : 66.7,
+      "semanticScore" : 64.4,
+      "systemScore" : 65.6,
+      "humanRankAnnotator1" : 4,
+      "humanRankAnnotator2" : 2,
+      "failure" : null
+    } ]
+  }, {
+    "resumeId" : "CV-025",
+    "humanRankingAnnotator1" : [ 1, 2, 3, 4, 5 ],
+    "humanRankingAnnotator2" : [ 1, 4, 2, 5, 3 ],
+    "systemRanking" : [ "VACANCY-1", "VACANCY-4", "VACANCY-5", "VACANCY-3", "VACANCY-2" ],
+    "ndcgAt1" : 1.0,
+    "ndcgAt3" : 0.7473011053309426,
+    "ndcgAt5" : 0.9196027125796399,
+    "spearman" : 0.1,
+    "pairs" : [ {
+      "jobId" : "VACANCY-1",
+      "keywordScore" : 40.0,
+      "semanticScore" : 64.2,
+      "systemScore" : 52.1,
+      "humanRankAnnotator1" : 1,
+      "humanRankAnnotator2" : 1,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-2",
+      "keywordScore" : 12.5,
+      "semanticScore" : 61.0,
+      "systemScore" : 36.8,
+      "humanRankAnnotator1" : 2,
+      "humanRankAnnotator2" : 4,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-3",
+      "keywordScore" : 25.0,
+      "semanticScore" : 57.9,
+      "systemScore" : 41.5,
+      "humanRankAnnotator1" : 3,
+      "humanRankAnnotator2" : 2,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-4",
+      "keywordScore" : 37.5,
+      "semanticScore" : 63.2,
+      "systemScore" : 50.4,
+      "humanRankAnnotator1" : 4,
+      "humanRankAnnotator2" : 5,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-5",
+      "keywordScore" : 33.3,
+      "semanticScore" : 62.8,
+      "systemScore" : 48.1,
+      "humanRankAnnotator1" : 5,
+      "humanRankAnnotator2" : 3,
+      "failure" : null
+    } ]
+  }, {
+    "resumeId" : "CV-026",
+    "humanRankingAnnotator1" : [ 2, 1, 3, 4, 5 ],
+    "humanRankingAnnotator2" : [ 1, 5, 2, 4, 3 ],
+    "systemRanking" : [ "VACANCY-2", "VACANCY-3", "VACANCY-4", "VACANCY-1", "VACANCY-5" ],
+    "ndcgAt1" : 1.0,
+    "ndcgAt3" : 0.8315340702206284,
+    "ndcgAt5" : 0.9559820335471291,
+    "spearman" : 0.7,
+    "pairs" : [ {
+      "jobId" : "VACANCY-1",
+      "keywordScore" : 20.0,
+      "semanticScore" : 60.0,
+      "systemScore" : 40.0,
+      "humanRankAnnotator1" : 2,
+      "humanRankAnnotator2" : 1,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-2",
+      "keywordScore" : 25.0,
+      "semanticScore" : 64.1,
+      "systemScore" : 44.6,
+      "humanRankAnnotator1" : 1,
+      "humanRankAnnotator2" : 5,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-3",
+      "keywordScore" : 25.0,
+      "semanticScore" : 63.1,
+      "systemScore" : 44.1,
+      "humanRankAnnotator1" : 3,
+      "humanRankAnnotator2" : 2,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-4",
+      "keywordScore" : 18.8,
+      "semanticScore" : 65.6,
+      "systemScore" : 42.2,
+      "humanRankAnnotator1" : 4,
+      "humanRankAnnotator2" : 4,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-5",
+      "keywordScore" : 0.0,
+      "semanticScore" : 60.8,
+      "systemScore" : 30.4,
+      "humanRankAnnotator1" : 5,
+      "humanRankAnnotator2" : 3,
+      "failure" : null
+    } ]
+  }, {
+    "resumeId" : "CV-027",
+    "humanRankingAnnotator1" : [ 2, 3, 4, 5, 1 ],
+    "humanRankingAnnotator2" : [ 4, 3, 1, 2, 5 ],
+    "systemRanking" : [ "VACANCY-5", "VACANCY-3", "VACANCY-2", "VACANCY-4", "VACANCY-1" ],
+    "ndcgAt1" : 1.0,
+    "ndcgAt3" : 0.8190147957939358,
+    "ndcgAt5" : 0.9293449960425916,
+    "spearman" : 0.3,
+    "pairs" : [ {
+      "jobId" : "VACANCY-1",
+      "keywordScore" : 20.0,
+      "semanticScore" : 60.0,
+      "systemScore" : 40.0,
+      "humanRankAnnotator1" : 2,
+      "humanRankAnnotator2" : 4,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-2",
+      "keywordScore" : 37.5,
+      "semanticScore" : 58.4,
+      "systemScore" : 48.0,
+      "humanRankAnnotator1" : 3,
+      "humanRankAnnotator2" : 3,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-3",
+      "keywordScore" : 50.0,
+      "semanticScore" : 60.6,
+      "systemScore" : 55.3,
+      "humanRankAnnotator1" : 4,
+      "humanRankAnnotator2" : 1,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-4",
+      "keywordScore" : 31.3,
+      "semanticScore" : 63.1,
+      "systemScore" : 47.2,
+      "humanRankAnnotator1" : 5,
+      "humanRankAnnotator2" : 2,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-5",
+      "keywordScore" : 66.7,
+      "semanticScore" : 62.2,
+      "systemScore" : 64.5,
+      "humanRankAnnotator1" : 1,
+      "humanRankAnnotator2" : 5,
+      "failure" : null
+    } ]
+  }, {
+    "resumeId" : "CV-028",
+    "humanRankingAnnotator1" : [ 2, 4, 3, 2, 5 ],
+    "humanRankingAnnotator2" : [ 1, 4, 2, 3, 5 ],
+    "systemRanking" : [ "VACANCY-5", "VACANCY-3", "VACANCY-2", "VACANCY-4", "VACANCY-1" ],
+    "ndcgAt1" : 0.0,
+    "ndcgAt3" : 0.11439716559069654,
+    "ndcgAt5" : 0.38016698132938015,
+    "spearman" : -0.8488746876271654,
+    "pairs" : [ {
+      "jobId" : "VACANCY-1",
+      "keywordScore" : 20.0,
+      "semanticScore" : 66.6,
+      "systemScore" : 43.3,
+      "humanRankAnnotator1" : 2,
+      "humanRankAnnotator2" : 1,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-2",
+      "keywordScore" : 37.5,
+      "semanticScore" : 63.4,
+      "systemScore" : 50.5,
+      "humanRankAnnotator1" : 4,
+      "humanRankAnnotator2" : 4,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-3",
+      "keywordScore" : 50.0,
+      "semanticScore" : 61.4,
+      "systemScore" : 55.7,
+      "humanRankAnnotator1" : 3,
+      "humanRankAnnotator2" : 2,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-4",
+      "keywordScore" : 31.3,
+      "semanticScore" : 67.4,
+      "systemScore" : 49.4,
+      "humanRankAnnotator1" : 2,
+      "humanRankAnnotator2" : 3,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-5",
+      "keywordScore" : 66.7,
+      "semanticScore" : 62.4,
+      "systemScore" : 64.6,
+      "humanRankAnnotator1" : 5,
+      "humanRankAnnotator2" : 5,
+      "failure" : null
+    } ]
+  }, {
+    "resumeId" : "CV-029",
+    "humanRankingAnnotator1" : [ 5, 1, 2, 4, 3 ],
+    "humanRankingAnnotator2" : [ 5, 1, 2, 4, 3 ],
+    "systemRanking" : [ "VACANCY-5", "VACANCY-3", "VACANCY-1", "VACANCY-4", "VACANCY-2" ],
+    "ndcgAt1" : 0.2,
+    "ndcgAt3" : 0.35457678583306135,
+    "ndcgAt5" : 0.6394274958655698,
+    "spearman" : -0.2,
+    "pairs" : [ {
+      "jobId" : "VACANCY-1",
+      "keywordScore" : 40.0,
+      "semanticScore" : 64.0,
+      "systemScore" : 52.0,
+      "humanRankAnnotator1" : 5,
+      "humanRankAnnotator2" : 5,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-2",
+      "keywordScore" : 37.5,
+      "semanticScore" : 61.4,
+      "systemScore" : 49.5,
+      "humanRankAnnotator1" : 1,
+      "humanRankAnnotator2" : 1,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-3",
+      "keywordScore" : 50.0,
+      "semanticScore" : 61.6,
+      "systemScore" : 55.8,
+      "humanRankAnnotator1" : 2,
+      "humanRankAnnotator2" : 2,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-4",
+      "keywordScore" : 37.5,
+      "semanticScore" : 65.1,
+      "systemScore" : 51.3,
+      "humanRankAnnotator1" : 4,
+      "humanRankAnnotator2" : 4,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-5",
+      "keywordScore" : 66.7,
+      "semanticScore" : 65.7,
+      "systemScore" : 66.2,
+      "humanRankAnnotator1" : 3,
+      "humanRankAnnotator2" : 3,
+      "failure" : null
+    } ]
+  }, {
+    "resumeId" : "CV-030",
+    "humanRankingAnnotator1" : [ 2, 1, 4, 3, 5 ],
+    "humanRankingAnnotator2" : [ 1, 2, 3, 4, 5 ],
+    "systemRanking" : [ "VACANCY-5", "VACANCY-2", "VACANCY-3", "VACANCY-4", "VACANCY-1" ],
+    "ndcgAt1" : 0.0,
+    "ndcgAt3" : 0.4763675740028251,
+    "ndcgAt5" : 0.6541352284915446,
+    "spearman" : -0.4,
+    "pairs" : [ {
+      "jobId" : "VACANCY-1",
+      "keywordScore" : 20.0,
+      "semanticScore" : 60.4,
+      "systemScore" : 40.2,
+      "humanRankAnnotator1" : 2,
+      "humanRankAnnotator2" : 1,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-2",
+      "keywordScore" : 25.0,
+      "semanticScore" : 61.5,
+      "systemScore" : 43.3,
+      "humanRankAnnotator1" : 1,
+      "humanRankAnnotator2" : 2,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-3",
+      "keywordScore" : 25.0,
+      "semanticScore" : 59.8,
+      "systemScore" : 42.4,
+      "humanRankAnnotator1" : 4,
+      "humanRankAnnotator2" : 3,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-4",
+      "keywordScore" : 18.8,
+      "semanticScore" : 65.7,
+      "systemScore" : 42.3,
+      "humanRankAnnotator1" : 3,
+      "humanRankAnnotator2" : 4,
+      "failure" : null
+    }, {
+      "jobId" : "VACANCY-5",
+      "keywordScore" : 33.3,
+      "semanticScore" : 64.2,
+      "systemScore" : 48.8,
+      "humanRankAnnotator1" : 5,
+      "humanRankAnnotator2" : 5,
+      "failure" : null
+    } ]
+  } ],
+  "rankingDisagreementCases" : [ ]
+}

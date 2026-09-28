@@ -1,0 +1,10 @@
+[
+  {
+    "pairId": "JOB-001-RESUME-001",
+    "jobId": "JOB-001",
+    "resumeId": "RESUME-001",
+    "jobDescription": "PASTE THE JOB DESCRIPTION HERE",
+    "resumeText": "PASTE THE RESUME TEXT HERE",
+    "humanRelevanceScore": null
+  }
+]
